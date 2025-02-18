@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margies-glocery</title>
+    <link type="image/png" rel="icon" href="./assets/logo.webp">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="logo-container">
+        <img src="./assets/logo.webp" alt="" class="logo">
+        <div class="text-container">
+            <h1 class="title">Margie`s Grocery</h1>
+            <p class="slogan">Your best groceries</p>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+    <section id="Services" style="margin-top: 50px;">
+        <h2>Our Services</h2>
+        <p>We offer a wide variety of fresh vegetables, fruits, and spices at our store. Here's what we provide:</p>
+        <div class="service-container">
+        <div class="service-column">
+        <h3>Vegetables</h3>
+        <ul>
+            <li>Cabbages</li>
+            <li>Sukuma wiki</li>
+            <li>Managu</li>
+            <li>Potatoes</li>
+            <li>Sugarcane</li>
+        </ul>
+        </div>
+        <div class="service-column">
+        <h3>Fruits</h3>
+            <ul>
+                <li>Oranges</li>
+                <li>Mangoes</li>
+                <li>Lemons</li>
+                <li>Bananas</li>
+                <li> Tomatoes</li>
+                <li> Spices</li>
+            </ul>
+        </div>
+        <div class="service-column">
+        <h3>Spices</h3>
+        <ul>
+            <li>Garlic</li>
+            <li>Onions</li>
+            <li>Coriander</li>
+        </ul>
+        </div>
+        </div>
+    </section>
+    <section id="about" style="margin-top: 50px;">
+        <h2>About Us</h2>
+        <p>We provide fresh grown groceries near<i> Taita Taveta University.</i><br>
+            They are produce fresh from the farm in taveta and transported by road to<b> TTU </b> Gate A <br>
+            Where they packaged and sold to our customers
+
+        </p>
+    </section>
+    <section id="contact" style="margin-top: 50px;">
+        <h2>Contact</h2>
+        <p>Get in touch with us through this page. You can reach us via email or phone for any inquiries.</p><br>
+        <div class="contact-icons">
+            <a href="#facebook">
+            <i class="fab fa-facebook" class="icon-link"></i>
+            <span>Facebook</span>
+            </a>
+            <a class="#">
+            <i class="fab fa-x-twitter" class="icon-link"></i>
+            <span>X</span>
+            </a>
+            <a href="#">
+            <i class="fab fa-whatsapp" target="_blank" class="icon=link"></i>
+            <span>WhatsApp</span>
+            </a>
+            <a href="tel:0722000000" class="icon">
+            <i class="fab fab-phone"></i>
+            <span>Call Us</span>
+            </a>
+        </div>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit">Submit</button>
+        </form>
+    </section>
+    
+    </main>
+    <footer>
+        <p>&copy;2024 </p>
+        <h5>Powered by Cursive</h5>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
